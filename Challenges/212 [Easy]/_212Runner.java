@@ -1,6 +1,6 @@
-public class runner {
+public class _212Runner {
     public static void main(String[] args) {
-        Test test = new Test();
+        _212Main test = new _212Main();
         test.columnFinder();
     }
 }
