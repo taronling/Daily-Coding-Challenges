@@ -11,7 +11,6 @@ def binary_interpreter(n):
     while n > 0:
         binary_val = str(n % 2) + binary_val
         n = n/2
-    # print("Binary conversion of base 10 value:", n, "is:", binary_val)
     return binary_val
 
 def longest_sequence(binary_val):
