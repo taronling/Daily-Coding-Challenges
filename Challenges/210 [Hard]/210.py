@@ -8,9 +8,7 @@ def longest(string_1, string_2, string_3):
     for a in string_1:
         for b in string_2:
             for c in string_3:
-
-
-
+                pass
 if __name__ == "__main__":
     string_1 = "epidemiologist"
     string_2 = "refrigeration"
