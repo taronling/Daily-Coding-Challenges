@@ -13,7 +13,7 @@ def index_occurrences(string, pattern, n):
         index_occurrences(string[index + len(pattern):], pattern, index + len(pattern) + n)
 
 if __name__ == "__main__":
-    string = "tarontarontaron"
-    pattern = "tar"
+    string = input("Enter a string: ")
+    pattern = input("Enter a pattern: ")
     index_occurrences(string, pattern, 0)
     print(answer)
